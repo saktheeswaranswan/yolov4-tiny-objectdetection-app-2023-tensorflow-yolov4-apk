@@ -19,3 +19,7 @@ python convert_tflite.py --weights ./checkpoints/yolov4-416 --output ./checkpoin
 
 # video üzerinden test
 python detect_video.py --weights ./checkpoints/yolov4-416.tflite --size 416 --model yolov4 --video ./data/video.mp4 --output ./detections/video_output.avi --framework tflite
+
+for tutorials
+
+https://www.youtube.com/watch?v=2AjG6frs2nw
